@@ -20,7 +20,7 @@ const Weather = () => {
 
     }
     return (
-        <div className="max-w-sm mx-auto  p-6 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 mt-32">
+        <div className=" bg-pink-200 max-w-sm mx-auto  p-6 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 mt-32">
             <h1 className="text-3xl font-bold mb-2 text-center text-white">Weather Report</h1>
             <p className="text-gray-700 mb-4 text-center whitespace-nowrap">I Can give you a Weather report about your city!!</p>
             <input type="text" className="w-full p-2 mb-4 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-white" placeholder="Enter city name" value={evalue} onChange={handle}></input>
